@@ -2,12 +2,12 @@
 // un archivo bundle.js que contiene tanto el javascript
 // como el CSS
 import '../scss/main.scss'
-import React from 'react'
-import ReactDOM from 'react-dom'
+import React from "react";
+import ReactDOM from "react-dom";
+import {app} from "./components/app"
 
-import {ExperiencePanel} from './components/ExperiencePanel'
 
 ReactDOM.render(
-    React.createElement(ExperiencePanel),
+    React.createElement(app),
     document.getElementById("app")
 )

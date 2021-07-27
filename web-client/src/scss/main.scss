@@ -1,54 +1,33 @@
-#app {
-  height: 100vh;
-  padding: 20%;
+body {
+  margin: 0;
 }
 
-.experiencesList {
-  border: thin solid #444444;
-  width: 300px;
-  margin: auto;
-  border-radius: 12px;
-  background-color: whitesmoke;
+.navigationBar {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: #eac99c;
 
-  &__title {
-    text-align: center;
+
+  a {
+    text-decoration: none;
+    padding: 20px;
+
   }
 
-  &__list {
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-  }
-
-  &__item {
-    box-shadow: #444444 1px 1px;
-    border: thin solid black;
-  }
+}
+.logo {
+  height: 90px;
+  width: 90px;
 }
 
-.experience {
+.switchLinks:hover {
+  background-color: white;
+  color: #363232;
 
-  height: 120px;
-  position: relative;
-  text-align: center;
 
-  &__name {
-    padding: 20%;
-  }
-
-  &__details {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #008CBA;
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .5s ease;
-
-  }
-  &:hover &__details {
-    width: 100%;
-  }
 }
+
+
+
+
