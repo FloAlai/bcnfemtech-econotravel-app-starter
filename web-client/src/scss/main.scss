@@ -5,8 +5,8 @@ body {
 .navigationBar {
   display: flex;
   align-items: center;
-  height: 50px;
-  background-color: #eac99c;
+  height: 70px;
+  background-color: #bcec69a3;
 
 
   a {
@@ -19,6 +19,7 @@ body {
 .logo {
   height: 90px;
   width: 90px;
+  padding: 5px;
 }
 
 .switchLinks:hover {
@@ -28,6 +29,22 @@ body {
 
 }
 
+.experienceSection{
+  display:flex;
 
+  padding: 20px;
+}
 
+.experiencias {
+  width: 150px;
+  border: thin solid #b4b4b4;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
 
+  &:hover {
+    transform: translate(1px, 1px);
+    background-color: #f5f5f5;
+    cursor: pointer;
+  }
+}
