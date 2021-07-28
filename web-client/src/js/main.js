@@ -4,10 +4,10 @@
 import '../scss/main.scss'
 import React from "react";
 import ReactDOM from "react-dom";
-import {app} from "./components/app"
+import {App} from "./components/App"
 
 
 ReactDOM.render(
-    React.createElement(app),
+    React.createElement(App),
     document.getElementById("app")
 )

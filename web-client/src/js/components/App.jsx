@@ -2,12 +2,14 @@ import * as React from "react";
 import { NavigationBar } from "./navigationBar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { QuienesSomos } from "./quienes-somos";
-import { Experiencias } from "./experiencias";
+import { Experiencias } from "./Experiencias";
 import { Inicio } from "./inicio";
+import { Footer } from "./Footer";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-export const app = () => {
+export const App = () => {
 
     const expList = [
         {   //1
@@ -59,7 +61,7 @@ export const app = () => {
     return <Router>
         <NavigationBar />
         <Switch>
-            <Route path={"/inicio"}>
+            <Route exact path={"/"}>
                 <Inicio />
             </Route>
 
@@ -70,8 +72,7 @@ export const app = () => {
             <Route path={"/experiencias"}>
                 <Experiencias exp={expList} />
             </Route>
-
-
         </Switch>
+        <Footer />
     </Router>
 }
