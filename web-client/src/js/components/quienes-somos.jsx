@@ -12,9 +12,11 @@ export const QuienesSomos = () => <section className="quienessomos">
  </p>
  <h3>Contacto</h3>
  <img src={Marina} alt="imgMarina"/>
- <p>
+ <p className={"contactoestilo"}>
   Teléfono: 93 000 00 00
+  <br/>
   Correo: info@econotravel.com
+  <br/>
   Dirección: Carrer dels Viatgers, 28, 08000 Barcelona
  </p>
 

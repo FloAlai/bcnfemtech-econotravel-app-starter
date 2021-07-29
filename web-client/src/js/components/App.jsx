@@ -24,14 +24,14 @@ export const App = () => {
             img: bici,
             description: "Hermoso paseo en bicicleta por el increíble Parque Natural del Montseny.(...)" ,
             precio: 250 ,
-            duracion: "5h",
+            duracion: "5 horas",
             accesibilidad: "Todas las edades. bicicletas accesibles para personas con movilidad reducida",
 
         },
         //2
         {
             img: barco,
-            title:"Descubre la costa en barco de vela",
+            title:"Descubre la Costa en Barco de Vela",
             description:"Hermoso paseo acuático en barco de vela por la increíble costa de Barcelona(...)",
             precio:280,
             duracion:"4 horas",
@@ -39,7 +39,7 @@ export const App = () => {
         },
         //3
         {
-            title:"Descubre la Barcelona Modernista de noche",
+            title:"Descubre la Barcelona Modernista de Noche",
             img: gaudi,
             description:"Desplazarse a pie es una de las mejores formas de descubrir las maravillas modernistas que se esconden en el barcelonés distrito del Eixample",
             precio:200,
@@ -48,7 +48,7 @@ export const App = () => {
         },
         //4
         {
-            title:"Del huerto a la mesa",
+            title:"Del Huerto a la Mesa",
             img: huerto,
             description:"Podréis plantar vuestras propias hortalizas y verduras en el huerto de Can Gilabert, ubicado en el corazón del Montbaig",
             precio:145,
@@ -57,7 +57,7 @@ export const App = () => {
         },
         //5
         {
-            title:"Arte en la montaña sagrada",
+            title:"Arte en la Montaña Sagrada",
             img: mountain,
             description:"Disfruta de la impresionante Montaña de Montserrat donde encontraréis el Museo con las salas modernistas de Puig i Cadafalch(...)",
             precio:125,

@@ -94,15 +94,20 @@
 }
 
 .titulo{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Abril Fatface', cursive;
   padding: 5px;
-
+  color: #4b7f55;
+  margin-bottom: 5px;
 }
 footer{
-  position:absolute;
+
   bottom:0;
   background-color:#cccccc;
   width: 100%;
+  /*  poner footer abajo */
+  position: fixed;
+  left: 0;
+
 }
 
 .imgExp {
@@ -110,6 +115,7 @@ footer{
  width: 100%;
   padding: 5px;
 
-
-
+}
+.contactoestilo{
+  font-size: small;
 }
