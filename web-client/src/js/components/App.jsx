@@ -3,11 +3,12 @@ import { NavigationBar } from "./navigationBar";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { QuienesSomos } from "./quienes-somos";
 import { Experiencias } from "./Experiencias";
-import { Inicio } from "./inicio";
+import { Inicio } from "./Inicio";
 import { Footer } from "./Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BootstrapCarousel } from "./BootstrapCarousel";
 import bici from "./assets/img/bicicleta1.jpg";
+
 
 
 
@@ -17,7 +18,7 @@ export const App = () => {
         {   //1
             id: 1 ,
             title:  "Paseo en bicicleta por el Montseny",
-            img: {bici},
+            img: bici,
             description: "hermoso paseo en bicicleta por el increíble Parque Natural del Montseny.(...)" ,
             precio: 250 ,
             duracion: "5h",

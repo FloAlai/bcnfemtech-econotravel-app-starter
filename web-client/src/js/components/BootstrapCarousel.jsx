@@ -2,7 +2,8 @@ import * as React from "react";
 import Montseni from "./assets/img/montaña.jpg";
 import huerto from "./assets/img/huert.jpg"
 import bici from "./assets/img/bicicleta1.jpg"
-import {Carousel} from "bootstrap";
+import {Carousel} from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 
     export const BootstrapCarousel = () =>
