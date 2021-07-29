@@ -9,10 +9,10 @@ export const Experiencias = (props) => (
                 <div className={"titulo"}> {exp.title} </div>
                 <div> {exp.id} </div>
                 <div> <img className="imgExp" src={exp.img}/></div>
-                <div> {exp.description} </div>
-                <div> {exp.precio} € por persona</div>
-                <div>{exp.duracion} </div>
-                <div> {exp.accesibilidad} </div>
+                <div className={"descriptionclass"}> {exp.description} </div>
+                <div className={"precioclass"}> {exp.precio} € por persona</div>
+                <div className={"duraclass"}>{exp.duracion} </div>
+                <div className={"accesclass"}> {exp.accesibilidad} </div>
 
             </div>
         )}

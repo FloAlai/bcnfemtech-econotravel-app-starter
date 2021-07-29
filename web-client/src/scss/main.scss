@@ -57,22 +57,45 @@
   width: 60%;
   flex-wrap: wrap;
   background-color: whitesmoke;
+  padding: 10px;
 
 
 
+.descriptionclass{
+  font-family: 'Gowun Dodum', sans-serif;
+  font-size: small;
+  padding: 5px;
+}
 
-
+  .precioclass{
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: small;
+    font-weight: bold;
+    padding: 5px;
+  }
+.duraclass{
+  font-family: 'Gowun Dodum', sans-serif;
+  font-size: small;
+  padding: 5px;
+}
+  .accesclass{
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: small;
+    padding: 5px;
+  }
 
 
   &:hover {
     transform: translate(1px, 1px);
     background-color: #ffcc00;
     cursor: pointer;
+
   }
 }
 
 .titulo{
   font-family: 'Roboto', sans-serif;
+  padding: 5px;
 
 }
 footer{
