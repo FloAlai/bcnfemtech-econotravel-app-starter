@@ -1,5 +1,5 @@
 import * as React from "react";
-
+import Marina from "./assets/img/ImgQuienesSomos.jpg";
 
 
 export const QuienesSomos = () => <section className="quienessomos">
@@ -11,6 +11,7 @@ export const QuienesSomos = () => <section className="quienessomos">
   Preocupada por la falta de alternativas eco-friendly, Marina se propuso fundar una agencia de experiencias turísticas donde el respeto por la naturaleza fuera la principal prioridad. Así nació Econotravel Barcelona.
  </p>
  <h3>Contacto</h3>
+ <img src={Marina} alt="imgMarina"/>
  <p>
   Teléfono: 93 000 00 00
   Correo: info@econotravel.com
