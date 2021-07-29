@@ -6,6 +6,8 @@ import { Experiencias } from "./Experiencias";
 import { Inicio } from "./inicio";
 import { Footer } from "./Footer";
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { BootstrapCarousel } from "./BootstrapCarousel";
+import bici from "./assets/img/bicicleta1.jpg";
 
 
 
@@ -13,17 +15,19 @@ export const App = () => {
 
     const expList = [
         {   //1
+            id: 1 ,
             title:  "Paseo en bicicleta por el Montseny",
+            img: {bici},
             description: "hermoso paseo en bicicleta por el increíble Parque Natural del Montseny.(...)" ,
             precio: 250 ,
             duracion: "5h",
             accesibilidad: "Todas las edades. bicicletas accesibles para personas con movilidad reducida",
-            id: 1 ,
+
         },
         //2
         {
             id: 2,
-
+            img: "",
             title:"Descubre la costa en barco de vela",
             description:"hermoso paseo acuático en barco de vela por la increíble costa de Barcelona(...)",
             precio:280,
@@ -32,7 +36,9 @@ export const App = () => {
         },
         //3
         {
+            id: 3,
             title:"Descubre la Barcelona Modernista de noche",
+            img: "",
             description:"Desplazarse a pie es una de las mejores formas de descubrir las maravillas modernistas que se esconden en el barcelonés distrito del Eixample",
             precio:200,
             duracion:"4 horas",
@@ -40,7 +46,9 @@ export const App = () => {
         },
         //4
         {
+            id: 4,
             title:"Del huerto a la mesa",
+            img: "",
             description:"Podréis plantar vuestras propias hortalizas y verduras en el huerto de Can Gilabert, ubicado en el corazón del Montbaig",
             precio:145,
             duracion:"3 horas",
@@ -48,7 +56,9 @@ export const App = () => {
         },
         //5
         {
+            id: 5,
             title:"Arte en la montaña sagrada",
+            img: "",
             description:"Disfruta de la impresionante Montaña de Montserrat donde encontraréis el Museo con las salas modernistas de Puig i Cadafalch(...)",
             precio:125,
             duracion:"2 horas",
@@ -72,6 +82,11 @@ export const App = () => {
             <Route path={"/experiencias"}>
                 <Experiencias exp={expList} />
             </Route>
+
+            <Route exact path="/">
+                <BootstrapCarousel />
+            </Route>
+
         </Switch>
         <Footer />
     </Router>

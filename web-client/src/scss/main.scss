@@ -29,7 +29,14 @@
 }
 
 
+.quienessomos{
+  margin: 120px;
 
+  h1{
+    margin-bottom: 50px;
+
+  }
+}
 
 
 .experienceSection{
@@ -45,6 +52,7 @@
   border-radius: 10px;
   margin: 10px;
   padding: 10px;
+
 
   &:hover {
     transform: translate(1px, 1px);
@@ -62,4 +70,8 @@ footer{
   bottom:0;
   background-color:#cccccc;
   width: 100%;
+}
+.imgExp {
+ background-size: 100%;
+
 }

@@ -7,7 +7,8 @@ export const Experiencias = (props) => (
         { props.exp.map( exp =>
             <div className={"experiencias"}>
                 <div className={"titulo"}> {exp.title} </div>
-                <div> {exp.image}</div>
+                <div> {exp.id} </div>
+                <div className={"imgExp"}> {exp.image}</div>
                 <div> {exp.description} </div>
                 <div> {exp.precio} € por persona</div>
                 <div>{exp.duracion} </div>

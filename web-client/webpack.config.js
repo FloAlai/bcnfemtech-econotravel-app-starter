@@ -17,8 +17,9 @@ module.exports = {
         clean: true
     },
     resolve: {
-        extensions: [".js", ".jsx", ".scss"]
+        extensions: [".js", ".jsx", ".scss", ".css"]
     },
+
     module: {
         rules: [
             {
@@ -52,15 +53,17 @@ module.exports = {
             },
 
             {
-                test: /\.scss$/,
+                test: /\.s?css$/,
                 use: [
                     "style-loader",
                     "css-loader",
-                    "sass-loader"
+                    "sass-loader",
+                    "postcss-loader",
                 ]
             }
         ]
     },
+
     plugins: [
         new HtmlWebpackPlugin({
             template: 'src/index.html'
