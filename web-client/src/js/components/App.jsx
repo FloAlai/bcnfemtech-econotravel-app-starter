@@ -8,6 +8,10 @@ import { Footer } from "./Footer";
 import {BootstrapCarousel} from "./BootstrapCarousel";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import bici from "./assets/img/bicicleta1.jpg";
+import barco from "./assets/img/imgexp2.jpg";
+import gaudi from "./assets/img/imgexp3.jpg";
+import huerto from "./assets/img/imgexp4.jpg";
+import mountain from "./assets/img/imgexp5.png";
 
 
 
@@ -16,10 +20,9 @@ export const App = () => {
 
     const expList = [
         {   //1
-            id: 1 ,
             title:  "Paseo en bicicleta por el Montseny",
             img: bici,
-            description: "hermoso paseo en bicicleta por el increíble Parque Natural del Montseny.(...)" ,
+            description: "Hermoso paseo en bicicleta por el increíble Parque Natural del Montseny.(...)" ,
             precio: 250 ,
             duracion: "5h",
             accesibilidad: "Todas las edades. bicicletas accesibles para personas con movilidad reducida",
@@ -27,19 +30,17 @@ export const App = () => {
         },
         //2
         {
-            id: 2,
-            img: "",
+            img: barco,
             title:"Descubre la costa en barco de vela",
-            description:"hermoso paseo acuático en barco de vela por la increíble costa de Barcelona(...)",
+            description:"Hermoso paseo acuático en barco de vela por la increíble costa de Barcelona(...)",
             precio:280,
             duracion:"4 horas",
             accesibilidad:"Actividad disponible para todas las edades. Pasarela para silla de ruedas disponible bajo reserva"
         },
         //3
         {
-            id: 3,
             title:"Descubre la Barcelona Modernista de noche",
-            img: "",
+            img: gaudi,
             description:"Desplazarse a pie es una de las mejores formas de descubrir las maravillas modernistas que se esconden en el barcelonés distrito del Eixample",
             precio:200,
             duracion:"4 horas",
@@ -47,9 +48,8 @@ export const App = () => {
         },
         //4
         {
-            id: 4,
             title:"Del huerto a la mesa",
-            img: "",
+            img: huerto,
             description:"Podréis plantar vuestras propias hortalizas y verduras en el huerto de Can Gilabert, ubicado en el corazón del Montbaig",
             precio:145,
             duracion:"3 horas",
@@ -57,9 +57,8 @@ export const App = () => {
         },
         //5
         {
-            id: 5,
             title:"Arte en la montaña sagrada",
-            img: "",
+            img: mountain,
             description:"Disfruta de la impresionante Montaña de Montserrat donde encontraréis el Museo con las salas modernistas de Puig i Cadafalch(...)",
             precio:125,
             duracion:"2 horas",
@@ -84,7 +83,7 @@ export const App = () => {
                 <Experiencias exp={expList} />
             </Route>
 
-            <Route exact path="/">
+            <Route path="/">
                 <BootstrapCarousel />
             </Route>
 

@@ -40,18 +40,28 @@
 
 
 .experienceSection{
-  display:flex;
+
 
   padding: 20px;
+  display:flex;
+
+
 }
 
 .experiencias {
-  width: 150px;
+
   box-shadow:#9c9c9c 0.1em 0.1em 0.1em;
   /*border: thin solid #b4b4b4;*/
   border-radius: 10px;
   margin: 10px;
-  padding: 10px;
+  width: 60%;
+  flex-wrap: wrap;
+  background-color: whitesmoke;
+
+
+
+
+
 
 
   &:hover {
@@ -74,6 +84,9 @@ footer{
 
 .imgExp {
  background-size: 100%;
+ width: 100%;
+  padding: 5px;
+
 
 
 }
