@@ -5,8 +5,8 @@ import { QuienesSomos } from "./quienes-somos";
 import { Experiencias } from "./Experiencias";
 import { Inicio } from "./Inicio";
 import { Footer } from "./Footer";
+import {BootstrapCarousel} from "./BootstrapCarousel";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { BootstrapCarousel } from "./BootstrapCarousel";
 import bici from "./assets/img/bicicleta1.jpg";
 
 
