@@ -13,8 +13,6 @@ export const NavigationBar = () => (
             <Link to={"/quienes-somos"}>Quienes somos</Link>
             <Link to={"/experiencias"}>Experiencias</Link>
         </div>
-        <div className="input">
-            <input type="text" placeholder="Search.."/>
-        </div>
+
     </nav>
 )
