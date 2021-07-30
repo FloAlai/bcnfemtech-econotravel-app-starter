@@ -1,6 +1,10 @@
 
 body{
   margin: 0px;
+  background: #a8ff78;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 .navigationBar {
   display: flex;
@@ -174,4 +178,27 @@ footer{
 
 .input1{
   margin-left: 20px;
+}
+.switchLinks{
+  display: flex;
+  justify-items: flex-start;
+}
+
+.reservanav{
+  margin-top: 18px;
+  font-size: large;
+  color: #FFCC00FF;
+}
+
+
+.photo{
+  width: 100%;
+  opacity: 0.6;
+  background-color: #a8ff78;
+}
+.completedFormMsg{
+  margin: 120px;
+  color: whitesmoke;
+  text-shadow: #242424 0.1em 0.1em 0.1em;
+  font-family: 'Abril Fatface', cursive;
 }

@@ -12,7 +12,7 @@ export const NavigationBar = () => (
             <Link to={"/inicio"}>Inicio</Link>
             <Link to={"/quienes-somos"}>Quienes somos</Link>
             <Link to={"/experiencias"}>Experiencias</Link>
-            <Link to={"/reserva"}>Reserva</Link>
+           <div className="reservanav"> <Link to={"/reserva"}>Reserva</Link></div>
 
         </div>
 
