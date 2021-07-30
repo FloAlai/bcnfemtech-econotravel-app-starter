@@ -12,7 +12,8 @@ import barco from "./assets/img/imgexp2.jpg";
 import gaudi from "./assets/img/imgexp3.jpg";
 import huerto from "./assets/img/imgexp4.jpg";
 import mountain from "./assets/img/imgexp5.png";
-
+import {FinalReserva} from "./finalreserva";
+import {Reserva} from "./reserva";
 
 
 
@@ -83,8 +84,16 @@ export const App = () => {
                 <Experiencias exp={expList} />
             </Route>
 
-            <Route path="/">
+            <Route path="/inicio">
                 <BootstrapCarousel />
+            </Route>
+
+            <Route path={"/finalreserva"}>
+                <FinalReserva />
+            </Route>
+
+            <Route path={"/reserva"}>
+                <Reserva />
             </Route>
 
         </Switch>
