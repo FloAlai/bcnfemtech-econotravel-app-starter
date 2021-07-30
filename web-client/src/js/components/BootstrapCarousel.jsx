@@ -41,6 +41,4 @@ import 'bootstrap/dist/css/bootstrap.min.css'
                     <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                 </Carousel.Caption>
             </Carousel.Item>
-
-            <div className={"textReserva"}> WELCOME TO OUR SITE </div>
         </Carousel>
