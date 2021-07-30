@@ -5,10 +5,10 @@ import {Link} from "react-router-dom";
 export const Reserva = () => {
     return (
         <div className={"contenedor"}>
-            <img className={"photo"} src={playa}/>
+               <img className={"photo"} src={playa}/>
             <div className={"textReserva"}>
                 <form className="formulario">
-                    <div>
+                    <div className="classnombre">
                         <label>Nombre</label>
                         <input
                             id="nombre"
@@ -16,7 +16,7 @@ export const Reserva = () => {
                             name="nombre"
                         />
                     </div>
-                    <div>
+                    <div className="classcorreo">
                         <label>Correo</label>
                         <input
                             id="correo"
@@ -24,7 +24,7 @@ export const Reserva = () => {
                             name="correo"
                         />
                     </div>
-                    <div>
+                    <div className="classfecha">
                         <label>Fecha</label>
                         <input
                             id="fecha"
@@ -32,7 +32,7 @@ export const Reserva = () => {
                             name="fecha"
                         />
                     </div>
-                    <div>
+                    <div className="classnumeropersonas">
                         <label>Numero de personas</label>
                         <input
                             id="personas"
@@ -40,7 +40,7 @@ export const Reserva = () => {
                             name="personas"
                         />
                     </div>
-                    <div>
+                    <div className="actividad">
                         <label>Actividad</label>
                         <select id="actividad" name="actividad">
                             <option value={"actividad1"}> Paseo en bicicleta por el Montseny</option>
@@ -50,8 +50,8 @@ export const Reserva = () => {
                         </select>
                     </div>
                     <div>
-                        <button>
-                            <Link to={"./FinalReserva"}>Reservar</Link>
+                        <button className="boton" >
+                            <Link className="textoboton" to={"./FinalReserva"}>Reservar</Link>
                         </button>
                     </div>
                 </form>

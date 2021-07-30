@@ -1,5 +1,7 @@
 
-
+body{
+  margin: 0px;
+}
 .navigationBar {
   display: flex;
   align-items: center;
@@ -114,13 +116,13 @@ footer{
   font-size: small;
 }
 .contenedor {
-  display: inline-block;
+
   position: fixed;
   left: 0;
   z-index: 1;
   width: 100%;
   height: 100%;
-  margin-top: auto;
+
   max-width: 100%;
 }
 .imgReserva  {
@@ -129,16 +131,47 @@ footer{
 }
 .textReserva {
   position: fixed;
-  top: 40%;
+  top: 20%;
   left: 20%;
-  font-size: 40px;
+  font-size: 25px;
   color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
 }
-.button, input, optgroup, select, textarea {
-  margin: 10px;
-  font-family: inherit;
-  font-size: 15px;
-  line-height: inherit;
+
+
+.classnombre{
+  padding: 15px;
+
+}
+
+.classcorreo{
+  padding: 15px;
+}
+.classfecha{
+  padding: 15px;
+}
+.classnumeropersonas{
+  padding: 15px;
+}
+.actividad{
+  padding: 15px;
+
+}
+.boton {
+  background-color: #4b7f55;
   border-radius: 7px;
-  height: 30px;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  margin: 15px;
+
+}
+
+
+.textoboton{
+  text-decoration: none;
+ color: whitesmoke;
+}
+
+.input1{
+  margin-left: 20px;
 }
