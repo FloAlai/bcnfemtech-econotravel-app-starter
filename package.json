@@ -1,0 +1,23 @@
+{
+  "name": "travelling",
+  "version": "1.0.0",
+  "description": "[Descripción completa del proyecto en Simplonline](https://simplonline.co/briefs/c051e298-4819-4197-a53c-c5ea55a53bab)",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FloAlai/bcnfemtech-econotravel-app-starter.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FloAlai/bcnfemtech-econotravel-app-starter/issues"
+  },
+  "homepage": "https://github.com/FloAlai/bcnfemtech-econotravel-app-starter#readme"
+}

@@ -34,22 +34,15 @@
 
   h1{
     margin-bottom: 50px;
-
   }
 }
 
-
 .experienceSection{
-
-
   padding: 20px;
   display:flex;
-
-
 }
 
 .experiencias {
-
   box-shadow:#9c9c9c 0.1em 0.1em 0.1em;
   /*border: thin solid #b4b4b4;*/
   border-radius: 10px;
@@ -140,4 +133,12 @@ footer{
   left: 20%;
   font-size: 40px;
   color: #FFFFFF;
+}
+.button, input, optgroup, select, textarea {
+  margin: 10px;
+  font-family: inherit;
+  font-size: 15px;
+  line-height: inherit;
+  border-radius: 7px;
+  height: 30px;
 }
