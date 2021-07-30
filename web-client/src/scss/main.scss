@@ -134,6 +134,7 @@ footer{
   height: 100%;
 }
 .textReserva {
+
   position: fixed;
   top: 20%;
   left: 20%;
@@ -144,25 +145,25 @@ footer{
 
 
 .classnombre{
-  padding: 15px;
+  padding: 10px;
 
 }
 
 .classcorreo{
-  padding: 15px;
+  padding: 10px;
 }
 .classfecha{
-  padding: 15px;
+  padding: 10px;
 }
 .classnumeropersonas{
-  padding: 15px;
+  padding: 10px;
 }
 .actividad{
-  padding: 15px;
+  padding: 10px;
 
 }
 .boton {
-  background-color: #4b7f55;
+  background-color:#ffcc00;
   border-radius: 7px;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
@@ -206,9 +207,24 @@ footer{
 
 .textReserva {
   font-style: inherit;
-  font-size: 40px;
-  text-align: center;
+  font-size: 20px;
+  text-align: left;
   color: whitesmoke;
-  margin-top: 50px;
+  margin-top: 15px;
 }
 
+input#nombre{
+  font-size: medium;
+}
+input#correo{
+  font-size: medium;
+}
+input#fecha{
+  font-size: medium;
+}
+input#personas{
+  font-size: medium;
+}
+input#actividad{
+  font-size: medium;
+}
